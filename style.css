@@ -1,0 +1,44 @@
+.menu ul li
+{
+  background-color: black;
+  color: white;
+  float: left;
+  width: 200px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 12px;
+}
+
+.menu ul li:hover
+{
+  background-color: red;
+}
+
+.menu ul
+{
+  padding: 0;
+}
+
+.menu ul ul
+{
+  display: none;
+}
+
+.menu ul li:hover > ul 
+{
+  background-color: white;
+  color: black;
+  display: block;
+}
+
+.logo
+{
+  background: green;
+  height: 159px;
+  width:1200px;
+}
+h1{
+    font-size:9pt;
+}
